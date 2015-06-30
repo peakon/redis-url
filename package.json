@@ -1,24 +1,31 @@
 {
-  "name": "redis-url",
-  "version": "1.0.0",
-  "description": "Parser for Redis URLs to format them to match node-redis options",
-  "scripts": {
-    "test": "grunt test"
-  },
-  "author": "Christian Holm <christian@peakon.com> (https://peakon.com/)",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^3.0.0",
-    "codecov.io": "^0.1.4",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-jscs": "^1.8.0",
-    "grunt-mocha-test": "^0.12.7",
-    "load-grunt-config": "^0.17.1",
-    "mocha": "^2.2.5"
-  },
-  "files": [
-    "index.js"
-  ]
+	"name": "redis-url",
+	"version": "1.0.0",
+	"description": "Parser for Redis URLs to format them to match node-redis options",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:peakon/redis-url.git"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+	"author": "Christian Holm <christian@peakon.com> (https://peakon.com/)",
+	"licenses": [{
+		"type": "MIT",
+		"url": "https://github.com/peakon/redis-url/blob/master/LICENSE"
+	}],
+	"devDependencies": {
+		"chai": "^3.0.0",
+		"codecov.io": "^0.1.4",
+		"grunt": "^0.4.5",
+		"grunt-cli": "^0.1.13",
+		"grunt-contrib-jshint": "^0.11.2",
+		"grunt-jscs": "^1.8.0",
+		"grunt-mocha-test": "^0.12.7",
+		"load-grunt-config": "^0.17.1",
+		"mocha": "^2.2.5"
+	},
+	"files": [
+		"index.js"
+	]
 }
